@@ -8,10 +8,10 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#13B497",
-    "light": "#13B497",
+    "light": "#00FFD1",
     "dark": "#13B497",
     "anchors": {
-      "from": "#13B497",
+      "from": "#2A9D8F",
       "to": "#13B497"
     }
   },
@@ -26,23 +26,6 @@
     "url": "https://peerpop.io"
   },
 
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
@@ -62,25 +45,12 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/peerpop.io_",
+    "instagram": "https://www.instagram.com/peerpop.io/",
+    "website": "https://peerpop.io",
+    "youtube": "https://www.youtube.com/@PeerPop_"
   }
 }
