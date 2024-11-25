@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Peerpop",
   "logo": {
-    "dark": "/logo/Logo.png",
-    "light": "/logo/Logo.png"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -15,6 +15,18 @@
       "to": "#13B497"
     }
   },
+  "font": {
+    "headings": {
+      "family": "Inter"
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "search": {
+   "location": "top"
+  },
+  
   "topbarLinks": [
     {
       "name": "Support",
@@ -28,22 +40,70 @@
 
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "getting-started/quick-start",
+        "getting-started/create-event",
+        "getting-started/find-events",
+        "getting-started/my-tickets",
+        "getting-started/my-rewards"
+      ]
+    },
+    
+    {
+      "group": "Manage Events",
+      "pages": [
+        "manage-events/event-overview",
+        "manage-events/analytics",
+        "manage-events/ticket-types",
+        "manage-events/orders",
+        "manage-events/event-attendees",
+        "manage-events/marketing-campaigns",
+        "manage-events/affiliate-rewards",
+        "manage-events/event-promoters",
+        "manage-events/manage-team",
+        "manage-events/edit-details"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Marketing",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "marketing/campaigns",
+        "marketing/filter-sort",
+        "marketing/contact-groups",
+        "marketing/upload-data",
+        "marketing/promo-codes"
+      ]
+    },
+    {
+      "group": "Team Management",
+      "pages": [
+        "team/promoters",
+        "team/collaborators",
+        "team/ticket-scanners",
+        "team/artists",
+        "team/vendors"
+      ]
+    },
+    {
+      "group": "Finance",
+      "pages": [
+        "finance/setup-payouts",
+        "finance/balance",
+        "finance/cash-out",
+        "finance/payout-methods",
+        "finance/refunds",
+        "finance/custom-fees"
+      ]
+    },
+    {
+      "group": "Profile & Account",
+      "pages": [
+        "profile/edit-profile",
+        "profile/account-settings",
+        "profile/subscriptions",
+        "profile/payment-methods"
       ]
     }
   ],
