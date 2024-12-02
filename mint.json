@@ -57,20 +57,17 @@
     {
       "group": "Event Management",
       "pages": [
-        {
-          "group": "Event Overview",
-          "pages": [
-            "manage-events/analytics",
-            "manage-events/attendees"
-          ]
-        },
+   
         {
           "group": "Manage Event",
           "pages": [
+            "manage-events/overview",
             "manage-events/edit-event-info",
             "manage-events/edit-visuals",
             "manage-events/ticket-types",
-            "manage-events/orders-&-refunds"
+            "manage-events/orders-&-refunds",
+            "manage-events/attendees"
+
           ]
         },
         {
