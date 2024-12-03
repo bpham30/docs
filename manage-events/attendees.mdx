@@ -3,97 +3,84 @@ title: 'Event Attendees'
 description: 'View and manage your event attendees'
 ---
 
-## Attendee Management
+## Attendee List
 
-Track and manage all registered attendees for your event.
+View all registered attendees for your event. Each entry shows:
+- Attendee name
+- Order date 
+- Tickets purchased
+- Total spend
 
-<CardGroup cols={2}>
-  <Card title="Attendee List" icon="users">
-    - View all registered attendees
-    - Search by name or email
-    - Filter by ticket type
-    - Export attendee data
-  </Card>
-  <Card title="Check-in Status" icon="clipboard-check">
-    - Track who's checked in
-    - View arrival times
-    - Monitor entry points
-    - Handle group check-ins
+<Tip>
+  Click the dropdown arrow next to any attendee to view additional details like username, phone number, and email address.
+</Tip>
+
+## Search & Sort
+
+Find specific attendees quickly:
+- Search by name using the search bar
+- Sort any column by clicking column headers (ascending or descending order)
+
+## Mass Communication
+
+Send messages to selected attendees:
+
+<Steps>
+  <Step title="Select Recipients">
+    1. Use checkboxes to select individual attendees
+        - Or, click the checkbox in the column header to select all attendees
+    2. Review your selected attendees in the bottom left
+  </Step>
+  
+  <Step title="Choose Channel">
+    Click the appropriate button to send your message via:
+    - [Mass Text](/manage-events/mass-texts) 
+    - [Mass Email](/manage-events/mass-emails)
+  </Step>
+</Steps>
+
+<Note>
+  Messages will only be sent to unique attendees with valid contact information for the selected channel.
+</Note>
+
+## Export Data
+
+Download your attendee list in CSV format with all available information:
+
+<CardGroup cols={1}>
+  <Card title="Attendee Data Export" icon="file-csv">
+    - Attendee names
+    - Order details
+    - Purchase date
+    - Ticket types
   </Card>
 </CardGroup>
 
 ## Quick Actions
 
 <AccordionGroup>
-  <Accordion icon="user-pen" title="Manage Attendees">
-    - View/edit attendee info
-    - Transfer tickets
-    - Process refunds
-    - Send individual messages
+  <Accordion icon="magnifying-glass" title="Search Options">
+    Search attendees by clicking the **Search** icon and entering a name in the search bar
   </Accordion>
   
-  <Accordion icon="envelope" title="Communication">
-    - Send mass emails
-    - Send mass texts
-    - Create contact groups
-    - Schedule reminders
+  <Accordion icon="sort" title="Sort Options">
+    Sort attendees by:
+    - Purchase date
+    - Name (A-Z)
+    - Total spend
+    - Tickets purchased
   </Accordion>
-
-  <Accordion icon="qrcode" title="Check-in Tools">
-    - Scan tickets
-    - Manual check-in
-    - Group check-in
-    - Multiple entry points
+  
+  <Accordion icon="download" title="Export Options">
+    Click the **Export** icon to download your attendee list in CSV format
+  </Accordion>
+  <Accordion icon="message" title="Mass Communication">
+    Select attendees and click the appropriate button to send messages via:
+    - [Mass Text](/manage-events/mass-texts) 
+    - [Mass Email](/manage-events/mass-emails)
   </Accordion>
 </AccordionGroup>
 
-## Attendee Data
-
-<Steps>
-  <Step title="View Attendee Details">
-    Access comprehensive attendee information:
-    - Personal details
-    - Ticket information
-    - Purchase history
-    - Check-in status
-  </Step>
-  
-  <Step title="Export Options">
-    Download attendee data in various formats:
-    - CSV file
-    - Excel spreadsheet
-    - PDF guest list
-    - Custom formats
-  </Step>
-  
-  <Step title="Data Management">
-    Organize attendee information:
-    - Create groups
-    - Add custom tags
-    - Sort and filter
-    - Bulk actions
-  </Step>
-</Steps>
-
 <Note>
-  All attendee data is securely stored and compliant with privacy regulations.
-</Note>
-
-## Check-in Management
-
-<CardGroup cols={2}>
-  <Card title="Mobile Check-in" icon="mobile">
-    Use our mobile app to:
-    - Scan QR codes
-    - Process walk-ups
-    - View guest details
-    - Track entry counts
-  </Card>
-  <Card title="Multiple Entry Points" icon="door-open">
-    Manage multiple entrances:
-    - Assign staff to gates
-    - Track entry by location
-    - Monitor capacity
-    - Real-time updates
-  </Card>
-</CardGroup> 
+  All attendee data is private and should be handled according to our privacy policy.
+</Note> 

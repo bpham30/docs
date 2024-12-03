@@ -1,0 +1,105 @@
+---
+title: 'Event Artists'
+description: 'Manage your event artists and performers'
+---
+
+## Artist List
+
+View all artists for your event. Each entry shows:
+- Artist name
+- Date invited
+- Status
+
+<Tip>
+  Click the **More Info** icon to view additional details like contact information and link to their artist pass (ticket).
+</Tip>
+
+## Invite Artists
+
+<Steps>
+  <Step title="Add Artist Name">
+   <Tabs>
+    <Tab title="Search by Name">
+     We search Spotify for the artist name:
+     - Enter artist name in search
+     - Select from search results
+     - Artist profile and top tracks will be imported
+    </Tab>
+    <Tab title="Enter Name Manually">
+      If artist isn't on Spotify:
+      - Enter the artist's name manually
+      - No Spotify integration available
+      - Basic artist card will be created
+    </Tab>
+   </Tabs>
+  </Step>
+  
+  <Step title="Display Settings">
+    Choose visibility on event page:
+    - Toggle "Show in Lineup" to display artist
+    - Spotify embed will show:
+      - Artist profile picture
+      - Top tracks player
+      - Artist name
+  </Step>
+
+  <Step title="Invitation Method">
+    Choose how to invite:
+    <CardGroup cols={2}>
+      <Card title="Contact Info" icon="address-book">
+        Send invitation via:
+        - Phone number (SMS)
+        - Email address
+      </Card>
+      <Card title="PeerPop Username" icon="user">
+        - Enter artist's username
+        - Direct platform invitation
+      </Card>
+    </CardGroup>
+  </Step>
+</Steps>
+
+<Note>
+  Artists will receive their artist pass (event ticket) automatically with the invitation.
+</Note>
+
+## Performance Details
+
+<AccordionGroup>
+  <Accordion icon="clock" title="Set Times">
+    - Performance duration
+    - Stage/location
+    - Setup time
+  </Accordion>
+  
+  <Accordion icon="gear" title="Requirements">
+    - Technical needs
+    - Equipment requests
+    - Special arrangements
+  </Accordion>
+</AccordionGroup>
+
+## Mass Communication
+
+Send messages to selected artists:
+- Select artists using checkboxes
+- Choose "Select All" for entire list
+- Send [Mass Text](/manage-events/mass-texts) or [Mass Email](/manage-events/mass-emails)
+
+## Export Data
+
+<CardGroup cols={2}>
+  <Card title="Basic Export" icon="file-csv">
+    - Artist names
+    - Contact info
+    - Performance times
+    - Status
+  </Card>
+  <Card title="Full Export" icon="file-lines">
+    - Technical requirements
+    - Artist passes
+    - Notes
+    - Setup details
+  </Card>
+</CardGroup>
+

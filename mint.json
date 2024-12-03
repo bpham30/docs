@@ -83,11 +83,11 @@
         {
           "group": "Manage Team",
           "pages": [
-            "manage-events/promoters",
-            "manage-events/collaborators",
-            "manage-events/artists",
-            "manage-events/vendors",
-            "manage-events/ticket-scanners"
+            "manage-team/promoters",
+            "manage-team/collaborators",
+            "manage-team/scanners",
+            "manage-team/vendors",
+            "manage-team/artists"
           ]
         }
       ]
