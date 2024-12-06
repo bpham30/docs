@@ -86,22 +86,14 @@
             "manage-team/promoters",
             "manage-team/collaborators",
             "manage-team/scanners",
-            "manage-team/vendors",
-            "manage-team/artists"
-          ]
+            "manage-team/vendors"          ]
         }
       ]
     },
     {
       "group": "Marketing Tools",
       "pages": [
-        {
-          "group": "Campaigns",
-          "pages": [
-            "marketing/mass-texts",
-            "marketing/mass-emails"
-          ]
-        },
+        "marketing/campaigns",
         {
           "group": "Contact Management",
           "pages": [

@@ -5,41 +5,82 @@ description: 'Manage your event check-in staff'
 
 ## Scanner List
 
-View all ticket scanners for your event. Each entry shows:
+View all scanners for your event. Each entry shows:
 - Scanner name
-- Assigned gate/location
-- Tickets scanned
+- Phone number
 - Status
+- Tickets scanned
 
 <Tip>
-  Click the dropdown arrow next to any scanner to view additional details like contact information and check-in statistics.
+  Click the dropdown arrow next to any scanner to view additional details and scanning statistics.
 </Tip>
 
-## Invite Scanners
+## Invite Event Scanners
 
 <Steps>
-  <Step title="Send Invitation">
-    1. Click "Add Scanner" button
-    2. Enter email or username
-    3. Assign gate/location
-    4. Send invitation
+  <Step title="Add Scanner">
+    Enter scanner details:
+    - Name
+    - Phone number
   </Step>
   
-  <Step title="Set Permissions">
-    Configure access:
-    - Assign entry points
-    - Set scanning hours
-    - Enable/disable manual entry
-    - Allow/block reentry scanning
+  <Step title="Send Invitation">
+    Scanner will receive:
+    - SMS invitation
+    - Event details
+    - Scanning instructions
   </Step>
 </Steps>
 
-## Search & Sort
+## Scanning Options
 
-Find specific scanners quickly:
-- Search by name using the search bar
-- Sort any column by clicking column headers
-- Filter by location or status
+<CardGroup cols={2}>
+  <Card title="Web Scanner" icon="globe">
+    Scan tickets directly from browser:
+    - No app download required
+    - Basic ticket scanning
+    - Works on any device
+  </Card>
+  <Card title="PeerPop Scanner App" icon="mobile">
+    Download our iOS app for advanced features:
+    - Offline scanning
+    - Guestlist check-in
+    - Real-time updates
+    - Multiple events
+  </Card>
+</CardGroup>
+
+## Add Scanners to All Events  
+
+<Note>
+  Access global scanner settings to manage scanners across all your events.
+</Note>
+
+<AccordionGroup>
+  <Accordion icon="qrcode" title="Generate Scanner Codes">
+    iOS App Only:
+    - Generate unique codes
+    - Share with team members
+    - Grant access to all events
+    - Monitor usage
+  </Accordion>
+  
+  <Accordion icon="gear" title="Scanner Settings">
+    Manage your scan team:
+    - Regenerate codes
+    - Remove scanners
+    - View activity
+    - Set permissions
+  </Accordion>
+</AccordionGroup>
+
+## Eventbrite Integration
+
+<Warning>
+  For events imported from Eventbrite:
+  - Only reward tickets can be scanned through PeerPop
+  - All other Eventbrite tickets must be scanned using the Eventbrite organizer app
+</Warning>
 
 ## Mass Communication
 
@@ -48,23 +89,3 @@ Send messages to selected scanners:
 - Choose "Select All" for entire list
 - Send [Mass Text](/manage-events/mass-texts) or [Mass Email](/manage-events/mass-emails)
 
-## Export Data
-
-<CardGroup cols={2}>
-  <Card title="Basic Export" icon="file-csv">
-    - Scanner names
-    - Locations
-    - Scan counts
-    - Status
-  </Card>
-  <Card title="Full Export" icon="file-lines">
-    - Contact information
-    - Performance metrics
-    - Shift details
-    - Notes
-  </Card>
-</CardGroup>
-
-<Note>
-  All scanner data is private and should be handled according to our privacy policy.
-</Note> 
