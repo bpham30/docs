@@ -26,11 +26,18 @@
   "search": {
    "location": "top"
   },
+  "sidebar": {
+    "items": "card"
+  },
   
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@peerop.io"
+      "url": "https://peerpop.io/support"
+    },
+    {
+      "name": "FAQ",
+      "url": "/faq"
     }
   ],
   "topbarCtaButton": {
